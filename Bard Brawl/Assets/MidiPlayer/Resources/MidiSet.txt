@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MidiSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SoundFonts>
+    <SoundFontInfo>
+      <Name>Timbres Of Heaven GM_GS_XG_SFX V 3.4 Final</Name>
+      <PatchCount>339</PatchCount>
+      <WaveCount>2612</WaveCount>
+      <WaveSize>376892670</WaveSize>
+      <SF2Path>C:/Users/Redwood/AppData/LocalLow/DefaultCompany/Bard Brawl\SoundFont\Timbres Of Heaven GM_GS_XG_SFX V 3.4 Final.sf2</SF2Path>
+    </SoundFontInfo>
+  </SoundFonts>
+  <IndexSelectedSF>0</IndexSelectedSF>
+  <MidiFiles />
+</MidiSet>

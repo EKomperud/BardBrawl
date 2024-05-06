@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MidiSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SoundFonts>
+    <SoundFontInfo>
+      <Name>Pokémon Black 2 and White 2</Name>
+      <PatchCount>211</PatchCount>
+      <WaveCount>621</WaveCount>
+      <WaveSize>19841906</WaveSize>
+      <SF2Path>C:/Users/Redwood/AppData/LocalLow/DefaultCompany/TestMIDI\SoundFont\Pokémon Black 2 and White 2.sf2</SF2Path>
+    </SoundFontInfo>
+  </SoundFonts>
+  <IndexSelectedSF>0</IndexSelectedSF>
+  <MidiFiles />
+</MidiSet>

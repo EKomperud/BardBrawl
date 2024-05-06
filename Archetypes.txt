@@ -1,0 +1,125 @@
+*** Physical Stats ***
+
+The Tragedy
+++Str
+++Dex
+++Con
+----- Achilles' Heel
+	Favored by the Gods, but not by the Fates: Crits against this unit roll base 3x dice instead of 2x. Crit ranges against this target are expanded by 1.
+
+The Olympian
++Str
++Dex
++Con
+--Shaken Confidence
+	Unused to losing, this unit suffers penalties to hit, damage, and saving throws when below certain hp thresholds (-1 at 50%, -2 at 25%)
+
+The Brute
++Str
+-Dex
++Con
+
+The Scrappy
+-Str
++Dex
++Con
+
+The Bully
++Str
++Dex
+-Con
+
+The Lifter
+++Str
+-Dex
+-Con
++ Overwhelming Power
+	Every successful hit lowers target's base AC for the rest of battle, up to 4 times. +2 damage for all Str weapons
+
+The Lithe
+-Str
+++Dex
+-Con
++ Escape Artist
+	Unit's Dex save successes cause them to take no damage, and fails cause them to only take half damage. Unit cannot be grappled successfully. Prof/Exp in Sleight of Hand
+
+The Punching Bag
+-Str
+-Dex
+++Con
++ Unbreakable
+	Unit gets health regen (1hp/turn) and bonus AC as their hp gets lower (+2 at <= 50%, and +4 at <= 25%), while they are conscious and hp > 0.
+
+The Unremarkable
+~Str
+~Dex
+~Con
++ Underestimated
+	Opponents tend to hold back. Opponents suffer -1 AC, To Hit, Damage, Saving Throws, and Saving Throw Threshold when interacting with this unit
+
+The Comedy
+-Str
+-Dex
+-Con
+++++ Dumb Luck
+	Crits against this unit turn into critical failures. This unit's critical failures incur misfortune upon their target too. Unit's crit range is expanded by 1
+
+
+*** Mental Stats ***
+
+The False God
+++Int
+++Wis
+++Chr
+----- Cult of Personality
+	This unit gains +2 for any mental ability check while being deceitful. They also suffer -6 for any mental ability check while being genuine, unless interacting with an enemy
+
+The ~~~~
++Int
++Wis
++Chir
+-- But!
+
+The Sage
++Int
++Wis
+-Chr
+
+The 
++Int
+-Wis
++Chr
+
+The Decent
+-Int
++Wis
++Chr
+
+The Intellectual
+++Int
+-Wis
+-Chr
++
+
+The Fool
+-Int
+++Wis
+-Chr
++
+
+The Salesman
+-Int
+-Wis
++Chr
+
+The NPC
+~Int
+~Wis
+~Chr
++
+
+The NEET
+-Int
+-Wis
+-Chr
+++++

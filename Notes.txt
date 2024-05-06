@@ -1,0 +1,38 @@
+Beat Tracker
+Rhythm Manager
+	Song:
+		3 minutes
+		180 seconds
+		120 bpm
+		2 bps
+		How many beats?
+		bps * seconds = ***360 beats***
+	How to populate array?
+		iterator  = i
+		beatValue = b
+		Starting at i == 0 and b == 0,
+			i++
+			b = b + 
+
+Need a better way to queue up notes:
+Attempt 1:
+	Define a new variable: queueAdvance
+		Defines how far in advance a note can be attempted (roughly 2x as long as note forgiveness?)
+		Misclicking outside of this window will do nothing (or maybe incur some sort of penalty? stun?)
+		Misclicking inside this window will miss the upcoming note
+
+
+		Damage Effect			Lvl 2			Lvl 3			Basic Attack		Strong Attack		Mobility		Mobility 2		Misc		Ultimate
+
+Fire		DOT				++ DOT + Spreads	+++ DOT + Panic		Firebolt		Flamethrower		Thruster					Eruption	Super Nova
+Ice		Reduced ATK & MGK		Reduced Speed		Frozen			Chilling Shot		Blizzard		Ice Skate		Axel Jump		Avalanche	Heat Death
+Lightning	Chains to nearby foes		Jolted			Seizure			Jolt			Lightning Tether	Live Wire		Ride the Lightning			Primordial Storm
+Sonic		Penetrates/shreds armor		Shreds more armor	Naseua			Shockwave		Rolling Thunder		Forward March		Sonic Boom				Grav Wave
+Alchemy		Leaves damging terrain		Shreds armor		Deals DOT		Acid Balloon		Corrosive Sludge	Slip n' Slide							
+
+
+Strongest Forces
+Nuclear
+Time
+Space
+Gravity
