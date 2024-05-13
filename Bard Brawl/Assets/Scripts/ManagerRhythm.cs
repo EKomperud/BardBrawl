@@ -47,6 +47,7 @@ public class ManagerRhythm : MonoBehaviour
     private GameObject[] particlePrefabs;
 
     private const float spawnDistance = 3.2f;
+    private float spawnScaling;
 
     private float[] beats;                  // Tracks at what time each beat will arrive at
     private int[,] notes;                    // Tracks which notes are associated with each beat
@@ -112,6 +113,7 @@ public class ManagerRhythm : MonoBehaviour
         noteSpawners[2] = rhythmBack.transform.GetChild(2).gameObject;
         noteSpawners[3] = rhythmBack.transform.GetChild(3).gameObject;
         particleSpawner = transform.GetChild(1).GetChild(0).gameObject;
+        spawnScaling = transform.localScale.x;
 
         // Initialize Timers
         countdown = 5f;
@@ -202,7 +204,7 @@ public class ManagerRhythm : MonoBehaviour
     {
         for (int i = hitIterator; i < hitIterator + noteObjectsCount; i++)
         {
-            noteObjects[i].transform.Translate(new Vector3(0f, -scrollSpeed * Time.deltaTime, 0f));
+            noteObjects[i].transform.Translate(new Vector3(0f, -scrollSpeed * Time.deltaTime * spawnScaling, 0f));
         }
     }
 
@@ -451,7 +453,7 @@ public class ManagerRhythm : MonoBehaviour
         GameObject prefabToSpawn = notePrefabs[noteToSpawn];
         //GameObject spawnedNote = Instantiate(prefabToSpawn, new Vector3(noteToSpawn / 10f, spawnDistance, 0f), new Quaternion(), spawners[noteToSpawn].transform);
         GameObject spawnedNote = Instantiate(prefabToSpawn, noteSpawners[noteToSpawn].transform, false);
-        spawnedNote.transform.Translate(new Vector3(0f, spawnDistance, 0f));
+        spawnedNote.transform.Translate(new Vector3(0f, spawnDistance * spawnScaling, 0f));
         noteObjects[spawnIterator] = spawnedNote;
         noteObjectsCount++;
 
@@ -532,13 +534,14 @@ public class ManagerRhythm : MonoBehaviour
 
     private IEnumerator SpawnParticle()
     {
-        float xVelocity = UnityEngine.Random.Range(-0.0015f, 0.0025f);
-        float yVelocity = UnityEngine.Random.Range(0.001f, 0.002f);
-        float zVelocity = UnityEngine.Random.Range(-0.01f, -0.005f);
+        float xVelocity = UnityEngine.Random.Range(-0.0015f, 0.0025f) * spawnScaling;
+        float yVelocity = UnityEngine.Random.Range(0.001f, 0.002f) * spawnScaling;
+        float zVelocity = UnityEngine.Random.Range(-0.01f, -0.005f) * spawnScaling;
 
         GameObject note = Instantiate(particlePrefabs[Mathf.FloorToInt(UnityEngine.Random.Range(0, particlePrefabs.Length - 0.001f))]);
         note.transform.position = particleSpawner.transform.position;
         note.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+        note.transform.localScale = new Vector3(spawnScaling,spawnScaling, spawnScaling);
 
         float lifetime = 1f;
         
