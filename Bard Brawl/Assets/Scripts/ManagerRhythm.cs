@@ -228,7 +228,7 @@ public class ManagerRhythm : MonoBehaviour
         {
             if (progressTimer > beats[hitIterator] + hitForgiveness)
             {
-                Debug.Log("Missed: " + beats[hitIterator] + "! You input: Nothing!");
+                //Debug.Log("Missed: " + beats[hitIterator] + "! You input: Nothing!");
                 MissNote(hitIterator);
             }
         }
@@ -245,7 +245,7 @@ public class ManagerRhythm : MonoBehaviour
             {
                 // correct!
                 // do something cool with note from notes[hitIterator]
-                Debug.Log("Hit: " + noteNames[notes[hitIterator, 0]] + "!");
+                //Debug.Log("Hit: " + noteNames[notes[hitIterator, 0]] + "!");
                 foreach (int i in inputInts)
                 {
                     streamPlayer.MPTK_PlayEvent(midiChord[i]);
@@ -258,7 +258,7 @@ public class ManagerRhythm : MonoBehaviour
             {
                 // wrong!
                 // do something mean with note from notes[hitIterator]
-                Debug.Log("Missed: " + beats[hitIterator] + "! You input: " + noteNames[inputInts[0]] + "...");
+                //Debug.Log("Missed: " + beats[hitIterator] + "! You input: " + noteNames[inputInts[0]] + "...");
                 MissNote(hitIterator);
             }
         }

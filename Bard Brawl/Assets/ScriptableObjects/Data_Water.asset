@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b6568d7b0fa464f8967521937d06f3, type: 3}
   m_Name: Data_Water
   m_EditorClassIdentifier: 
-  tiles: []
+  tile: {fileID: 11400000, guid: 676c4e66bf545c74387cd27965df6287, type: 2}
   dataMask: 2

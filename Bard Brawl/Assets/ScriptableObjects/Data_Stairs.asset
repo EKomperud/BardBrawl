@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5b6568d7b0fa464f8967521937d06f3, type: 3}
-  m_Name: Data_PlainGround
+  m_Name: Data_Stairs
   m_EditorClassIdentifier: 
-  tile: {fileID: 11400000, guid: a90a7406a3623054f9f7bf90d014b573, type: 2}
-  dataMask: 1
+  tile: {fileID: 11400000, guid: ffe9aa883d859b24ea267389d0a2da61, type: 2}
+  prefab: {fileID: 6193544640556350330, guid: cb219a8aab40be74983603037c3274ab, type: 3}
+  dataMask: 64

@@ -13,7 +13,9 @@ public class VoxelMap : MonoBehaviour
         ObstacleHoppable = 8,
         ObstacleMovable = 16,
         ObstacleBarrier = 32,
-        Stairs = 64
+        Stairs = 64,
+        OrientationX = 128,
+        OrientationZ = 256
     }
 
     // map markers

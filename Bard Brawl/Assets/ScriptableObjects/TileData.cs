@@ -7,6 +7,7 @@ using UnityEngine.Tilemaps;
 public class TileData : ScriptableObject
 {
     public TileBase tile;
+    public GameObject prefab;
 
     public short dataMask;
 }
