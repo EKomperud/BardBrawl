@@ -34,6 +34,6 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
   m_ColliderType: 1
-  markerMask: 108
+  markerMask: 16876
   prefabs:
   - {fileID: 6241167026870298883, guid: 6bf3f8db0f5a0c64193096d40bb9f93a, type: 3}
