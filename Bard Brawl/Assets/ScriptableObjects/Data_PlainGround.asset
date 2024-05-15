@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Data_PlainGround
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: a90a7406a3623054f9f7bf90d014b573, type: 2}
+  prefabs:
+  - {fileID: 4486465640742033670, guid: 224195cf8f5d1a14bb256452892ab556, type: 3}
   dataMask: 1

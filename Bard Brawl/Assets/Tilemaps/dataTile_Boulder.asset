@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68966163cf2f4a64ebf6b893a0e1b802, type: 3}
+  m_Name: dataTile_Boulder
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 21300000, guid: 70ae9917ba26cb343bf755f77eb4f47c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 1
+  m_ColliderType: 1
+  markerMask: 44
+  prefabs:
+  - {fileID: 6156980630061182126, guid: f3b6be2f3d475ac459818c55e1aac511, type: 3}
+  - {fileID: 554474518307034792, guid: b5265ab6f6af9dc4f88160c9a7a23d69, type: 3}
+  - {fileID: 2347383802287207654, guid: 224f900a6caed1e41ada51930379da8c, type: 3}

@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Data_Water
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: 676c4e66bf545c74387cd27965df6287, type: 2}
+  prefabs:
+  - {fileID: 8629554360232026362, guid: a0951ed5b1fd6184d9295bd91a5bfdf5, type: 3}
   dataMask: 2

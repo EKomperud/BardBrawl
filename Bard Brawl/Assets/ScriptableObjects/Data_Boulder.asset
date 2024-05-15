@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b6568d7b0fa464f8967521937d06f3, type: 3}
+  m_Name: Data_Boulder
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 777fa4058f529c3418a0101a6feeb976, type: 2}
+  prefabs:
+  - {fileID: 6156980630061182126, guid: f3b6be2f3d475ac459818c55e1aac511, type: 3}
+  - {fileID: 554474518307034792, guid: b5265ab6f6af9dc4f88160c9a7a23d69, type: 3}
+  - {fileID: 2347383802287207654, guid: 224f900a6caed1e41ada51930379da8c, type: 3}
+  dataMask: 44

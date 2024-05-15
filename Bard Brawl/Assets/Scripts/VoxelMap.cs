@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class VoxelMap : MonoBehaviour
 {
-    public enum MapMarkers
+    public enum MapMarker
     {
         Open = 0,
-        Ground = 1,
+        SolidTerrain = 1,
         Water = 2,
-        ObstacleClimbable = 4,
-        ObstacleHoppable = 8,
-        ObstacleMovable = 16,
-        ObstacleBarrier = 32,
-        Stairs = 64,
-        OrientationX = 128,
-        OrientationZ = 256
+        Climbable = 4,
+        Rollable = 8,
+        Pushable = 16,
+        Barrier = 32,
+        Breakable = 64,
+        HeightLow = 128,
+        HeightMid = 256,
+        HeightHigh = 512,
+        OrientationX = 1024,
+        OrientationZ = 2048
     }
 
     // map markers
