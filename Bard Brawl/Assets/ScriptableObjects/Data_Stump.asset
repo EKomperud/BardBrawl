@@ -12,7 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b6568d7b0fa464f8967521937d06f3, type: 3}
   m_Name: Data_Stump
   m_EditorClassIdentifier: 
-  tile: {fileID: 11400000, guid: 0342e38ae30a71b42a04e0ff9f99ca65, type: 2}
-  prefabs:
-  - {fileID: 3595254863277521491, guid: 83272d49182669e459e7adc0bfcf6c22, type: 3}
-  dataMask: 36
+  dataMask: 16804

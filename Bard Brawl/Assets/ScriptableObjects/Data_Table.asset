@@ -12,7 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b6568d7b0fa464f8967521937d06f3, type: 3}
   m_Name: Data_Table
   m_EditorClassIdentifier: 
-  tile: {fileID: 11400000, guid: 43ef84fc335a4e74f8ff986c31c811cb, type: 2}
-  prefabs:
-  - {fileID: 5639773235670834403, guid: 072e6bb4cdf01e146a000fca24b86767, type: 3}
-  dataMask: 100
+  dataMask: 16885

@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 194075e0c1d91af409f89345ecfbfdbb,
         type: 3}
       propertyPath: m_Name
-      value: Voxel_Prairie
+      value: Terrain_Prairie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76,6 +76,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8111367643648843050}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 194075e0c1d91af409f89345ecfbfdbb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8042602835898617511}
   m_SourcePrefab: {fileID: 100100000, guid: 194075e0c1d91af409f89345ecfbfdbb, type: 3}
 --- !u!1 &4486465640742033670 stripped
 GameObject:
@@ -125,3 +129,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-8042602835898617511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4486465640742033670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7af522f57b6d6148bcaa9e9023fd492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataMask: 897

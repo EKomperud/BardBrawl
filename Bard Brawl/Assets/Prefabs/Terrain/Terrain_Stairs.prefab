@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fbbc3cd5cc49198449302cf1024ffef3,
         type: 3}
       propertyPath: m_Name
-      value: Prop_Stairs
+      value: Terrain_Stairs
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76,6 +76,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7201026126998461369}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fbbc3cd5cc49198449302cf1024ffef3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -185280593753664237}
   m_SourcePrefab: {fileID: 100100000, guid: fbbc3cd5cc49198449302cf1024ffef3, type: 3}
 --- !u!1 &6193544640556350330 stripped
 GameObject:
@@ -95,3 +99,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d96e92be911dd45aa0033deb0d708b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-185280593753664237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6193544640556350330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7af522f57b6d6148bcaa9e9023fd492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataMask: 912
